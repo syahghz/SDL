@@ -3,7 +3,7 @@ app=Flask(__name__)
 
 @app.route("/")
 def heeloworld():
-    return "hwlllo"
+    return render_template("test.html")
 
 if __name__== '__main__':
 
